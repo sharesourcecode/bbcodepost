@@ -1,0 +1,49 @@
+#!/bin/bash
+mkdir -p $HOME/.tmp
+cd $HOME/.tmp
+curl https://github.com/AlvesUeliton/Private/raw/master/mail/send.txt -O -L
+#font
+URL='furiadetitas.net'
+SRC=$(w3m -cookie -debug -dump_source -o accept_encoding=='*;q=0' "$URL/chat/titans/changeRoom")
+ACCESS=$(echo $SRC | sed "s/value\=/value\=\n/g" | grep '\<table' | cut -d\" -f2 | head -n1)
+echo $ACCESS
+
+#clan chat message
+SND1="Enviar"
+echo -e "s=$ACCESS&text="$(cat << EOF
+Message here. Use \n for new line.
+EOF)"&send_message=$SND1" >chat.txt
+SRC=$(w3m -cookie -debug -post chat.txt -dump_source -o accept_encoding=='*;q=0' "$URL/chat/clan")
+
+#topic coment
+TID="Topic ID here"
+SND1="Enviar"
+echo -e "error=$ACCESS&text="$(cat << EOF
+Coment here. Use \n for new line.
+EOF)"&send_message=$SND1" >coment.txt
+SRC=$(w3m -cookie -debug -post coment.txt -dump_source -o accept_encoding=='*;q=0' "$URL/forum/topic/$TID")
+
+#topic edit
+TID="Topic ID here"
+SND2="Mudar"
+echo -e "error=$ACCESS&name="Topic name"&text="`cat << EOF
+Text or bbcode here. Use \n for new line.
+EOF`"&send_message=$SND2" >edit.txt
+SRC=$(w3m -cookie -debug -post edit.txt -dump_source -o accept_encoding=='*;q=0' "$URL/forum/topic/$TID/red")
+
+#topic create
+SID="Subforum ID here"
+LBL="Criar um tópico"
+echo -e "error=$ACCESS&name="Topic name"&text="`cat << EOF
+Text or bbcode here. Use \n for new line.
+EOF`"&label=$LBL" >create.txt
+SRC=$(w3m -cookie -debug -post create.txt -dump_source -o accept_encoding=='*;q=0' "$URL/forum/subforum/$SID/write?r=$ACCESS")
+
+#mail
+USID="User ID here"
+SND1="Enviar"
+echo -e "r=$ACCESS&text="`cat << EOF
+Mail here. Use \n for new line.
+EOF`"&send_message=$SND1" >mail.txt
+SRC=$(w3m -cookie -debug -post mail.txt -dump_source -o accept_encoding=='*;q=0' "$URL/mail/$USID")
+exit
