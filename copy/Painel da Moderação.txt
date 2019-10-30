@@ -1,0 +1,20 @@
+[right][url=/forum/topic/97048/1][small]Licença[/small][/url][/right][center][big][b][color=F72800]C[/color][color=F43408]u[/color][color=F24011]r[/color][color=EF4C1A]i[/color][color=ED5823]o[/color][color=EB652B]s[/color][color=E87134]i[/color][color=E67D3D]d[/color][color=E48946]a[/color][color=E1954F]d[/color][color=DFA257]e[/color] [color=DABA69]n[/color][color=D8C672]o[/color] [color=D4CC72]F[/color][color=D3C669]ú[/color][color=D2BF60]r[/color][color=D1B957]i[/color][color=D0B24F]a[/color] [color=CDA63D]d[/color][color=CC9F34]e[/color] [color=CA9223]T[/color][color=C98C1A]i[/color][color=C88511]t[/color][color=C77F08]ã[/color][color=C67901]s[/color][/big][br][br][color=DEDFDE]Aqui está um modelo similar a página de ban utilizada pelos Mods:[/color][/b][br][br][big][color=D6D37B][b]Painel de proibição[/b][/color][/big][br][color=3E3D3]━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/center][br]Nome de usuário: [img=/images/icon/race/0-off.png] [url=/user/4]Titanking[/url]
+IP: 01.01.012.01
+Agent: Nokia305/2.0 (07.42)
+Profile/MIDP-2.1 Configuration/CLDC-1.1
+UCWEB/2.0(Java; U; MIDP-2.0; zh-CN;
+nokia305) U2/1.0.0 UCBrowser/8.8.0.227
+U2/1.0.0 Mobil
+[hr] [img=/images/icon/bg.png] Duração do ban em horas:
+[img=/images/icon/bg.png] [Color=737173]████████████[/color]
+[img=/images/icon/bg.png] Razão:
+[img=/images/icon/bg.png] [Color=737173]████████████[/color][br]
+[img=/images/icon/bg.png] [img=/images/icon/block/bt-l.png][img=/images/icon/block/bt-bg.png][color=FFFFFF][small]Diam[/small][/color][img=/images/icon/block/bt-bg.png][img=/images/icon/block/bt-r.png] [small][color=F72800]<- Não traduzido[/color][/small][br]
+[img=/images/icon/bg.png] [img=/images/icon/block/bt-l.png][color=FFFFFF][small] Bloqueio [/small][/color][img=/images/icon/block/bt-r.png]
+[color=FF9A00]
+[hr][big][b]⋅[/b][/big] [small]Quando você pressiona o [Bloqueio], o jogador será[br] [img=/images/icon/bg.png]bloqueado por 24 horas, administradores serão[br] [img=/images/icon/bg.png]informados para verificar suas ações[/small][/color]
+[center][color=3E3D3]━━━━━━━━━━━━━━━━━━━━━━━━━[/color]
+[color=949294]Sem histórico de violações　　　[/color]
+[color=6D6D6][big][b]━━━━━━━━━━━━━━━━━━━━[/b][/big][/color][color=948E94][/center][right][small][i]Link do Painel: /banpanel/UserID
+(*acessível apenas aos mods)
+Fonte: Servidor indonésio(bahasa.tiwar.net)[/i][/color][/small][/right]
