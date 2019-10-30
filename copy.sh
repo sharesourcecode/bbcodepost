@@ -1,0 +1,12 @@
+#!/bin/bash
+TID=24900
+mkdir -p $HOME/.tmp
+cd $HOME/.tmp
+URL='furiadetitas.net'
+#URL='tiwar.net'
+#URL='cn.tiwar.net'
+w3m -debug -cookie -dump_source -o accept_encoding=='*;q=0' "$URL/forum/topic/$TID/1" >tpc1.html
+cat tpc1.html | sed 's/<div\ align="center">/[center]/g;s/<div\ align="right">/[right]/g;s/<div\ align="left">/[left]/g;s/<\/div>/[\/center]/g;s/<a\ href="/[url=/g;s/">/]/g;s/<\/a>/[\/url]/g;s/<font\ color="/[color=/g;s/<\/font>/[\/color]/g;s/<br\ \/>//g;s/<small>/[small]/g;s/<\/small>/[\/small]/g;s/<i>/[i]/g;s/<\/i>/[\/i]/g;s/<hr\/>/[hr]/g;s/<span\ class="bold]/[b]/g;s/<\/span>/[\/b]/g;s/<big>/[big]/g;s/<\/big>/[\/big]/g;s/<img\ src="/[img=/g;s/"\ alt="]/]/g;s/<br\/>/\n/g;s/&lt;/</g;s/<u>/[u]/g;s/<\/u>/[\/u]/g;s/<span/\n\n/g;s/<img\ width="100%"\ style="max-width:500px;"\ src="/[img=/g;s/&gt;/>/g;s/&quot;/"/g' | sed "s/<img\ src='/[img=/g" | sed "s/'\ alt=''\/>/]/g" | sed "s/'white'>/\n\n/g" | head -n97
+cat tpc1.html | sed 's/<div\ align="center">/[center]/g;s/<div\ align="right">/[right]/g;s/<div\ align="left">/[left]/g;s/<\/div>/[\/center]/g;s/<a\ href="/[url=/g;s/">/]/g;s/<\/a>/[\/url]/g;s/<font\ color="/[color=/g;s/<\/font>/[\/color]/g;s/<br\ \/>//g;s/<small>/[small]/g;s/<\/small>/[\/small]/g;s/<i>/[i]/g;s/<\/i>/[\/i]/g;s/<hr\/>/[hr]/g;s/<span\ class="bold]/[b]/g;s/<\/span>/[\/b]/g;s/<big>/[big]/g;s/<\/big>/[\/big]/g;s/<img\ src="/[img=/g;s/"\ alt="]/]/g;s/<br\/>/\n/g;s/&lt;/</g;s/<u>/[u]/g;s/<\/u>/[\/u]/g;s/<span/\n\n/g;s/<img\ width="100%"\ style="max-width:500px;"\ src="/[img=/g;s/&gt;/>/g;s/&quot;/"/g' | sed "s/<img\ src='/[img=/g" | sed "s/'\ alt=''\/>/]/g" | sed "s/'white'>/\n\n/g" | head -n95 >tpc2.txt
+cat tpc2.txt | sed 's/\[img=\/images\/smiles\/emoji\///g;s/two-women-holding-hands.png]/👭/g;s/two-men-holding-hands.png]/👬/g;s/cloud.png]/☁/g;s/blue-heart.png]/💙/g;s/sun-with-face.png]/🌞/g;s/fire.png]/🔥/g;s/raised-hand.png]/✋/g;s/smiling-face-with-open-mouth.png]/😃/g;s/waving-hand-sign.png]/👋/g;s/smiling-face-with-open-mouth-and-smiling-eyes.png]/😄/g;s/large-red-circle.png]/🔴/g;s/large-blue-circle.png]/🔵/g;s/house-with-garden.png]/🏡/g;s/house-building.png]/🏠/g;s/deciduous-tree.png]/🌳/g;s/taxi.png]/🚕/g;s/person-with-ball.png]/⛹/g;s/man-and-woman-holding-hands.png]/👫/g;s/evergreen-tree.png]/🌲/g;s/sunflower.png]/🌻/g;s/golfer.png]/🏌/g;s/moyai.png]/🗿/g;s/flag-in-hole.png]/⛳/g;s/automobile.png]/🚗/g;s/european-post-office.png]/🏤/g;s/\[img=\/images\/icon\/bg.png]/　/g' >tpc1.html
+exit
