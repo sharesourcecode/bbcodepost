@@ -1,0 +1,47 @@
+[center][small][color=slategray]
+[i]Box-drawing são esses caracteres:[/i] [/color][color=f229]
+╔ ╦ ═ ╗
+╠ ╬ ╣  
+╚ ╩ ║ ╝ [/color][color=slategray]
+[i]Com eles é possível criar desenhos e letreiros...[/i]
+
+1 "[/color][color=f229]╔══╗╔══╗ ╦══╦══╦[/color][color=slategray]"
+2 "[/color][color=f229]║╔╗║║╚╝╣ ║╔╗║╚╝╣[/color][color=slategray]"
+3 "[/color][color=f229]║╔╗║║║╗║ ║╔╗║║╗║[/color][color=slategray]"
+4 "[/color][color=f229]╚╝╚╝╚══╝ ╩╝╚╩══╩[/color][color=slategray]"[/color]
+[color=333333]لینکس[/color]
+[color=slategray]1 "[/color][color=f229]╦══╦══╦══╦══╦══╦╗╔╦[/color][color=slategray]"
+2 "[/color][color=f229]╣╔═╣╦╗║║═╣╔═╣╔═╣╚╝╠[/color][color=slategray]"
+3 "[/color][color=f229]║╚═╣║╝║║═╣╔╝║╚╗║╔╗║[/color][color=slategray]"
+4 "[/color][color=f229]╩══╩══╩══╩╝╩╚══╩╝╚╩[/color][color=slategray]"
+1 "[/color][color=f229]╔══╗╔══╗╔══╗╔══╗╔══╗╔╗╔╗[/color][color=slategray]"
+2 "[/color][color=f229]║╔═╝║╦╗║║║═╣║╔═╝║╔═╣║╚╝║[/color][color=slategray]"
+3 "[/color][color=f229]║╚═╗║║╝║║║═╣║╔╝╬║╚╗║║╔╗║[/color][color=slategray]"
+4 "[/color][color=f229]╚══╝╚══╝╚══╝╚╝╩╩╚══╝╚╝╚╝[/color][color=slategray]"[/color]
+[color=333333]لینکس[/color]
+[color=slategray]1 "[/color][color=f229]╦╗╔╦╗╔╦╗╔═╦═╦══╦[/color][color=slategray]"
+2 "[/color][color=f229]╠╣║║╔═╣║║║║║║╔╗║[/color][color=slategray]"
+3 "[/color][color=f229]║╠╝║╔╣║╚╣║║║║║║║[/color][color=slategray]"
+4 "[/color][color=f229]╩╩═╩╝╚╩═╩╩═╩╩╝╚╩[/color][color=slategray]"
+1 "[/color][color=f229]╔╗╦╔╗╔╗╔╗╔╗╦╔═╦═╗╔══╗[/color][color=slategray]"
+2 "[/color][color=f229]╠╣╬║║║╔═╣║║╬║║║║║║╔╗║[/color][color=slategray]"
+3 "[/color][color=f229]║║╔╝║║╔╣║║╚╗║║║║║║║║║[/color][color=slategray]"
+4 "[/color][color=f229]╚╝╚═╝╚╝╚╝╚═╝╚╩═╩╝╚╝╚╝[/color][color=slategray]"[/color]
+[color=333333]لینکس[/color]
+[color=slategray]1 "[/color][color=f229]╦══╦══╦══╦══╦══╦══╦[/color][color=slategray]"
+2 "[/color][color=f229]║╔╗║╔╗║╔╗║╚╝╣══╬╗╔╣[/color][color=slategray]"
+3 "[/color][color=f229]║╚╝║╔═╣╚║╣║╗╠══║║║║[/color][color=slategray]"
+4 "[/color][color=f229]╩══╩╝╩╚══╩╝╚╩══╝╚╝╚[/color][color=slategray]"
+1 "[/color][color=f229]╔══╗╔══╗╔══╗╔══╗╔══╗╔══╗[/color][color=slategray]"
+2 "[/color][color=f229]║╔╗║║╔╗║║╔╗║║╚╝╣║══╣╚╗╔╝[/color][color=slategray]"
+3 "[/color][color=f229]║╚╝║║╔═╝║╚║╣║║╗║╠══║╬║║╬[/color][color=slategray]"
+4 "[/color][color=f229]╚══╝╚╝╩╩╚══╝╚╝╚╝╚══╝╩╚╝╩[/color][color=slategray]"[/color]
+[color=333333]لینکس[/color]
+[color=slategray]1 "[/color][color=f229]╦╗╔╦╗╔╦╦═╦╦╗╔╦╗╔╦══╦[/color][color=slategray]"
+2 "[/color][color=f229]║║║║║║║║║║║╚╔║╚╝╠╣╔╣[/color][color=slategray]"
+3 "[/color][color=f229]║╚╝║╚║║║║║║╝╗╠╗╔╣╔╝╣[/color][color=slategray]"
+4 "[/color][color=f229]╩══╩══╩═╩═╩╝╚╝╚╝╚══╩[/color][color=slategray]"
+1 "[/color][color=f229]╔╗╔╗╔╗╔╗╔╦═╦╗╔╗╔╗╔╗╔╗╔══╗[/color][color=slategray]"
+2 "[/color][color=f229]║║║║║║║║║║║║║║╚╔║║╚╝║╚╣╔╝[/color][color=slategray]"
+3 "[/color][color=f229]║╚╝║║╚║║║║║║║║╝╗║╚╗╔╝╔╔╝╗[/color][color=slategray]"
+4 "[/color][color=f229]╚══╝╚══╝╚═╩═╝╚╝╚╝╩╚╝╩╚══╝[/color][color=slategray]"[/color][/center][/small][url=/forum/topic/97048/1]Licença[/url]
